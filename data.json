@@ -1,0 +1,131 @@
+{
+  "mainScene": "Level 1",
+  "levelName": "My Chapter level 1",
+  "background": {
+    "sky": "http://localhost:3000/bgs/forest/sky.png",
+    "cloud": "http://localhost:3000/bgs/forest/cloud.png",
+    "fg": "http://localhost:3000/bgs/forest/fg.png",
+    "bg": "http://localhost:3000/bgs/forest/bg.png",
+    "mg": "http://localhost:3000/bgs/forest/mg.png"
+  },
+  "compatibleTiles": {
+    "type1": [
+      "Platform 1_0",
+      "game_default[Platform 1_0]",
+      "game_farm[Platform 3_0]",
+      "game_dessert[dessert x64_21]",
+      "savannah[savannah_0]",
+      "deep_jungle[deep_jungle_0]"
+    ],
+    "type2": [
+      "Platform 1_1",
+      "game_default[Platform 1_1]",
+      "game_farm[Platform 3_1]",
+      "game_dessert[dessert x64_22]",
+      "savannah[savannah_1]",
+      "deep_jungle[deep_jungle_1]"
+    ],
+    "type3": [
+      "Platform 1_2",
+      "game_default[Platform 1_2]",
+      "game_farm[Platform 3_2]",
+      "game_dessert[dessert x64_23]",
+      "savannah[savannah_2]",
+      "deep_jungle[deep_jungle_2]"
+    ],
+    "type4": [
+      "Platform 1_3",
+      "game_default[Platform 1_3]",
+      "game_farm[Platform 3_3]",
+      "game_dessert[dessert x64_3]",
+      "savannah[savannah_3]",
+      "deep_jungle[deep_jungle_3]"
+    ],
+    "type5": [
+      "Platform 1_4",
+      "game_default[Platform 1_4]",
+      "game_farm[Platform 3_4]",
+      "game_dessert[dessert x64_4]",
+      "savannah[savannah_4]",
+      "deep_jungle[deep_jungle_4]"
+    ],
+    "type6": [
+      "Platform 1_5",
+      "game_default[Platform 1_5]",
+      "game_farm[Platform 3_5]",
+      "game_dessert[dessert x64_5]",
+      "savannah[savannah_5]",
+      "deep_jungle[deep_jungle_5]"
+    ],
+    "type7": [
+      "Platform 1_6",
+      "game_default[Platform 1_6]",
+      "game_farm[Platform 3_6]",
+      "game_dessert[dessert x64_9]",
+      "savannah[savannah_6]",
+      "deep_jungle[deep_jungle_6]"
+    ],
+    "type8": [
+      "Platform 1_7",
+      "game_default[Platform 1_7]",
+      "game_farm[Platform 3_7]",
+      "game_dessert[dessert x64_10]",
+      "savannah[savannah_7]",
+      "deep_jungle[deep_jungle_7]"
+    ],
+    "type9": [
+      "Platform 1_8",
+      "game_default[Platform 1_8]",
+      "game_farm[Platform 3_8]",
+      "game_dessert[dessert x64_11]",
+      "savannah[savannah_8]",
+      "deep_jungle[deep_jungle_8]"
+    ]
+  },
+  "tilesToUse": [
+    "savannah[savannah_0]",
+    "savannah[savannah_1]",
+    "savannah[savannah_2]",
+    "savannah[savannah_3]",
+    "savannah[savannah_4]",
+    "savannah[savannah_5]",
+    "savannah[savannah_6]",
+    "savannah[savannah_7]",
+    "savannah[savannah_8]"
+  ],
+  "characterData": {
+    "Body": "Common.Basic.Body.HumanPants#FFC878FF",
+    "Ears": "Common.Basic.Ears.Human#FFC878FF",
+    "Hair": "Common.Basic.Hair.FrenchCrop#FF00FFFF",
+    "Beard": null,
+    "Helmet": null,
+    "Armor": "FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor,FantasyHeroes.Basic.Armor.BanditArmor",
+    "Back": null,
+    "Wings": null,
+    "Shield": "FantasyHeroes.Basic.Shield.WoodenBuckler",
+    "WeaponType": "Melee1H",
+    "Expression": "Default",
+    "HideEars": "False",
+    "CropHair": "False",
+    "Makeup": null,
+    "Mask": null,
+    "Earrings": null,
+    "PrimaryWeapon": "FantasyHeroes.Basic.MeleeWeapon1H.ShortSword",
+    "Expression.Default.Eyebrows": "Common.Basic.Eyebrows.Default",
+    "Expression.Default.Eyes": "Common.Basic.Eyes.Boy#00C8FFFF",
+    "Expression.Default.EyesColor": "#00C8FFFF",
+    "Expression.Default.Mouth": "Common.Basic.Mouth.Default",
+    "Expression.Angry.Eyebrows": "Common.Emoji.Eyebrows.AngryEyebrows",
+    "Expression.Angry.Eyes": "Common.Emoji.Eyes.AngryEyes3#00C8FFFF",
+    "Expression.Angry.EyesColor": "#00C8FFFF",
+    "Expression.Angry.Mouth": "Common.Emoji.Mouth.AngryMouth1",
+    "Expression.Dead.Eyebrows": "Common.Emoji.Eyebrows.DeadEyebrows1",
+    "Expression.Dead.Eyes": "Common.Emoji.Eyes.DeadEyes4#00C8FFFF",
+    "Expression.Dead.EyesColor": "#00C8FFFF",
+    "Expression.Dead.Mouth": "Common.Emoji.Mouth.DeadMouth4",
+    "Expression.Happy.Eyebrows": "Common.Emoji.Eyebrows.DeadEyebrows1",
+    "Expression.Happy.Eyes": "Common.Emoji.Eyes.HappyEyes#00C8FFFF",
+    "Expression.Happy.EyesColor": "#00C8FFFF",
+    "Expression.Happy.Mouth": "Common.Basic.Mouth.Smirk"
+  }
+}
